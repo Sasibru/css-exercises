@@ -1,17 +1,15 @@
-.oddnumber1{
+.oddnumber1 {
     background-color: rgb(236, 156, 170);
-    font-family: Verdana, "DejaVu Sans", sans-serif;
+    font-family: Verdana, DejaVu Sans, sans-serif;
 }
 
-.oddnumber2{
-    background-color: rgb(236, 156, 170);
-    font-family: Verdana, "DejaVu Sans", sans-serif;
+.oddnumber2 {
     font-size: 24px;
 }
 
-
 #number2 {
-    color: blue; font-size: 36px;
+    color: blue; 
+    font-size: 36px;
 }
 
 #number4 {
