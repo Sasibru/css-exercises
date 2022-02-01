@@ -12,9 +12,8 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
-  align-items: center;
   display: flex;
-  gap: 16px;
+  justify-content: space-between;
   padding: 8px;
 }
 
@@ -31,10 +30,6 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
-}
-
-.notifications {
-  margin-left: auto;
 }
 
 button {
@@ -55,6 +50,12 @@ ul {
   list-style-type: none;
   display: flex;
   margin: 0;
-  padding: 16px;
+  padding: 0;
+  gap: 16px;
+}
+
+.left, .right {
+  display: flex;
+  align-items: center;
   gap: 16px;
 }
