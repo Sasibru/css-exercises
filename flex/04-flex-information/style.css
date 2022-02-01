@@ -13,16 +13,19 @@ body {
 .items {
   display: flex;
   justify-content: center;
+  gap: 52px;
 }
 
 img {
   width: 100px;
   height: 100px;
-  margin: 52px;
+  margin: 0px 52px;
 }
 
 .text {
   text-align: center;
+  width: 200px;
+  flex-wrap: wrap;
 }
 
 /* do not edit this footer */
