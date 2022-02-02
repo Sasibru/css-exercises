@@ -9,7 +9,7 @@ body {
   margin: 0;
   background: #aaa;
   color: #333;
-  /* I'll give you this one for free lol */
+  /* I'll give you this one for free */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,15 +20,11 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-  padding: 16px 16px;
+  display: flex;
+  gap: 16px;
+  padding: 16px;
 }
 
-.top-icons {
-  display: inline-flex;
-  justify-content: space-between;
-  margin-left: -8px;
-  width: 480px;
-}
 .icon {
   color: royalblue;
   font-size: 26px;
@@ -40,6 +36,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* this keeps the icon from getting smashed by the text */
+  flex-shrink: 0;
 }
 
 .close-button {
@@ -55,15 +53,13 @@ body {
   justify-content: center;
 }
 
-.centering {
-  width: 450px;
-  margin-left: 44px;
-}
-
 .header {
-  font-size: 20px;
-  margin-top: -40px;
-  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
 }
 
 .text {
