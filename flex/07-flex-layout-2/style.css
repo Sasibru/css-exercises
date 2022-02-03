@@ -23,7 +23,9 @@ body {
   color: darkmagenta;
   justify-content: center;
   align-items: center;
-  margin-top: auto;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
 }
 
 ul {
@@ -51,14 +53,14 @@ ul {
 }
 
 .container-cards {
-  display: inline-flex;
+  display: flex;
 }
 
 .card {
-  display: flex;
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   padding: 32px;
+  gap: 16px;
   flex: 1 1 auto;
 }
