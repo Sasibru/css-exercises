@@ -51,6 +51,14 @@ img {
   width: 600px;
 }
 
+.input {
+  align-self: center;
+}
+
+.buttons {
+  align-self: center;
+}
+
 button {
   font-family: Roboto, sans-serif;
   border: none;
