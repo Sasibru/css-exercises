@@ -4,6 +4,10 @@ body {
   min-height: 100vh;
 }
 
+.content {
+  display: inline-flex;
+}
+
 .header {
   display: flex;
   height: 72px;
@@ -34,9 +38,6 @@ ul {
   margin: 0;
 }
 
-.content {
-  display: inline-flex;
-}
 
 .sidebar {
   display: flex;
@@ -45,7 +46,6 @@ ul {
   background: royalblue;
   font-size: 24px;
   padding: 16px;
-
 }
 
 .sidebar a {
@@ -55,13 +55,15 @@ ul {
 
 .container-cards {
   display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 32px;
 }
-
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  width: 200px;
   padding: 32px;
-  gap: 16px;
-  flex: 1 1 auto;
+  margin: 16px;
 }
