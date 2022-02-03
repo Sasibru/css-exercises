@@ -24,7 +24,7 @@ ul {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  padding: 8px;
+  padding: 4px;
 }
 
 .header .left-links {
