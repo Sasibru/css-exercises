@@ -32,13 +32,17 @@ ul {
   margin: 0;
 }
 
+.content {
+  display: inline-flex;
+}
+
 .sidebar {
   display: flex;
   flex-shrink: 0;
   width: 300px;
   background: royalblue;
   font-size: 24px;
-  padding-left: 16px;
+  padding: 16px;
 }
 
 .sidebar a {
@@ -47,10 +51,11 @@ ul {
 }
 
 .container-cards {
-  display: flex;
+  display: inline-flex;
 }
 
 .card {
+  display: flex;
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
